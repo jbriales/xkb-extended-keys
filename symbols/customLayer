@@ -1,0 +1,82 @@
+// Custom alphabet layout for Fn extension
+// The key codes can be looked up in original files in /usr/share/X11/xkb/keycodes/
+// for the configuration used (e.g. evdev)
+// Look up the scan code with xev command
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "Fn" {
+    // Explanation:
+    // partial - not complete symbols definition (only some keys are set)
+    // alphanumeric/modifier_keys - the kind of keys that are set in this section
+    // xkb_symbols - the kind of configuration that is given here: symbols
+    // "Fn" the specific name given to this configuration section
+
+    key.type = "FOUR_LEVEL+LEVEL5";
+    // Explanation:
+    // key.type is set to assign a specific default type to all mappings below
+    // Note: NoSymbol is used in lower levels to preserve previous symbols
+
+    // Mapping of left hand alphanumeric keys for mapped functions
+    key <LatQ>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Escape  ]   };
+    key <LatW>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Insert  ]   };
+    key <LatE>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Home    ]   };
+    key <LatR>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Prior   ]   };
+    key <LatS>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Delete  ]   };
+    key <LatD>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   End     ]   };
+    key <LatF>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Next    ]   };
+    // Mapping of right hand alphanumeric keys for mapped functions
+    key <LatI>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Up      ]   };
+    key <LatJ>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Left    ]   };
+    key <LatK>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Down    ]   };
+    key <LatL>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Right   ]   };
+    key <LatU>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Delete  ]   };
+    key <LatM>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   BackSpace   ]   };
+    key <AC10>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Return  ]   };
+
+    // Mapping of function F keys to numeric row
+    key <TLDE> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, Escape ] };
+    //key <AE01> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F1 ] };
+    //key <AE02> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F2 ] };
+    //key <AE03> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F3 ] };
+    //key <AE04> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F4 ] };
+    //key <AE05> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F5 ] };
+    //key <AE06> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F6 ] };
+    //key <AE07> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F7 ] };
+    //key <AE08> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F8 ] };
+    //key <AE09> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F9 ] };
+    //key <AE10> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F10 ] };
+    //key <AE11> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F11 ] };
+    //key <AE12> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F12 ] };
+    key <AE01> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, onesubscript ] };
+    key <AE02> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, twosubscript ] };
+    key <AE03> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, threesubscript ] };
+    key <AE04> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, foursubscript ] };
+    key <AE05> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, fivesubscript ] };
+    key <AE06> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, sixsubscript ] };
+    key <AE07> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, sevensubscript ] };
+    key <AE08> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, eightsubscript ] };
+    key <AE09> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, ninesubscript ] };
+    key <AE10> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, zerosubscript ] };
+
+    // Extend G as a shortcut to change layout group
+    key <LatG> {
+        type[Group1]="FOUR_LEVEL+LEVEL5",
+        symbols[Group1] = [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   ISO_Next_Group  ],
+        symbols[Group2] = [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   ISO_Prev_Group  ]
+    };
+
+    // Map additional Control_L to LAlt key for convenience when typewriting
+    key.type = "TWO_LEVEL+LEVEL5";
+    key <LALT> { [  Alt_L,      Meta_L,     Control_L ] };
+    //key <LALT> {
+    //  type[Group1]="TWO_LEVEL+LEVEL5",
+    //  symbols[Group1] = [ NoSymbol, NoSymbol, Control_L ]
+    //};
+
+    // Set Caps_Lock in an unused key
+    key <SCLK> { type= "ONE_LEVEL", symbols[Group1]=    [  Caps_Lock        ]   };
+
+    include "levelFn(caps_switch)"
+    // Explanation: Includes another configuration file in which the modifier mapping is done
+    // This could be directly written here, but it is kept in a different file for clarity
+};

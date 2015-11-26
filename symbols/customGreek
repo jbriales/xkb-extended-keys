@@ -1,0 +1,36 @@
+partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    // Add greek layout as an additional group
+    name[Group2] = "Greek";
+    // Note: To define additional groups, the symbols for the previous
+    // groups must be left empty.
+    key <AD02> { [], [ Greek_finalsmallsigma,    Greek_SIGMA ] }; // ς Σ
+    key <AD03> { [], [         Greek_epsilon,  Greek_EPSILON ] }; // ε Ε
+    key <AD04> { [], [             Greek_rho,      Greek_RHO ] }; // ρ Ρ
+    key <AD05> { [], [             Greek_tau,      Greek_TAU ] }; // τ Τ
+    key <AD06> { [], [         Greek_upsilon,  Greek_UPSILON ] }; // υ Υ
+    key <AD07> { [], [           Greek_theta,    Greek_THETA ] }; // θ Θ
+    key <AD08> { [], [            Greek_iota,     Greek_IOTA ] }; // ι Ι
+    key <AD09> { [], [         Greek_omicron,  Greek_OMICRON ] }; // ο Ο
+    key <AD10> { [], [              Greek_pi,       Greek_PI ] }; // π Π
+
+    key <AC01> { [], [           Greek_alpha,    Greek_ALPHA ] }; // α Α
+    key <AC02> { [], [           Greek_sigma,    Greek_SIGMA ] }; // σ Σ
+    key <AC03> { [], [           Greek_delta,    Greek_DELTA ] }; // δ Δ
+    key <AC04> { [], [             Greek_phi,      Greek_PHI ] }; // φ Φ
+    key <AC05> { [], [           Greek_gamma,    Greek_GAMMA ] }; // γ Γ
+    key <AC06> { [], [             Greek_eta,      Greek_ETA ] }; // η Η
+    key <AC07> { [], [              Greek_xi,       Greek_XI ] }; // ξ Ξ
+    key <AC08> { [], [           Greek_kappa,    Greek_KAPPA ] }; // κ Κ
+    key <AC09> { [], [           Greek_lamda,    Greek_LAMDA ] }; // λ Λ
+    key <AC10> { [], [            dead_acute, dead_diaeresis ] }; // ´ ¨
+
+    key <AB01> { [], [            Greek_zeta,     Greek_ZETA ] }; // ζ Ζ
+    key <AB02> { [], [             Greek_chi,      Greek_CHI ] }; // χ Χ
+    key <AB03> { [], [             Greek_psi,      Greek_PSI ] }; // ψ Ψ
+    key <AB04> { [], [           Greek_omega,    Greek_OMEGA ] }; // ω Ω
+    key <AB05> { [], [            Greek_beta,     Greek_BETA ] }; // β Β
+    key <AB06> { [], [              Greek_nu,       Greek_NU ] }; // ν Ν
+    key <AB07> { [], [              Greek_mu,       Greek_MU ] }; // μ Μ
+};

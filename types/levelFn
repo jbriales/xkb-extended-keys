@@ -1,0 +1,37 @@
+partial default xkb_types "default" {
+
+    // Definition for a key type which 
+    // can be used to implement ISO9995
+    // style level five shift
+    virtual_modifiers LevelThree,LevelFive;
+
+	type "FOUR_LEVEL+LEVEL5" {
+    modifiers = Shift+LevelThree+LevelFive;
+	map[None] = Level1;
+	map[Shift] = Level2;
+	map[LevelThree] = Level3;
+	map[Shift+LevelThree] = Level4;
+	map[LevelFive] = Level5;
+	// To allow text selection with Shift
+	// preserve must be declared for the Shift+LevelFive combination
+	map[Shift+LevelFive]= Level5;
+	preserve[Shift+LevelFive]= Shift;
+	level_name[Level1] = "Base";
+	level_name[Level2] = "Shift";
+	level_name[Level3] = "Alt Base";  
+	level_name[Level4] = "Shift Alt";
+	level_name[Level5] = "Fn";
+    };
+
+
+	type "TWO_LEVEL+LEVEL5" {
+        modifiers= Shift+LevelFive;
+        map[Shift]= Level2;
+		map[LevelFive]= Level3;
+		map[Shift+LevelFive]= Level3;
+		preserve[Shift+LevelFive]= Shift;
+        level_name[Level1]= "Base";
+        level_name[Level2]= "Shift";
+		level_name[Level3]= "Fn";
+    };
+};
