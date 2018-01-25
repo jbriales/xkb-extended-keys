@@ -2,6 +2,6 @@ xkb_keymap {
 	xkb_keycodes  { include "evdev+aliases(qwerty)"	};
 	xkb_types     { include "complete+levelFn"	};
 	xkb_compat    { include "complete"	};
-	xkb_symbols   { include "pc+es+inet(evdev)+customLayer(Fn)+customGreek"	};
+	xkb_symbols   { include "pc+us+inet(evdev)+customLayer(Fn)+customGreek"	};
 	xkb_geometry  { include "pc(pc105)"	};
 };
