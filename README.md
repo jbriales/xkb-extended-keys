@@ -87,3 +87,15 @@ The file tree consists of:
   Printed layouts cheatsheet (modified with Inkscape)
   `-ll` is used to specify the level to print
   e.g. `xkbprint $DISPLAY -ll 5 -o xkbprint_Fn.ps`
+
+## Resources
+Dealing with XKB configuration is not straighforward.
+As claimed in various blogs and documentation, there is plenty of examples on the internet
+(many of which may not work for you).
+
+I will try to collect here some of those documents that were valuable for me.
+
+- [Customizing your keyboard layout with xkbcomp](https://a3nm.net/blog/xkbcomp.html).
+  A relatively simple but thorough walk-through with the minimal steps to define your own layout
+  with some customizations and in a maintainable way (using `setxkbmap` and `xkbcomp`).
+  
