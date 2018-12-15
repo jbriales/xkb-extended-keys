@@ -32,6 +32,7 @@ xkb_symbols "Fn" {
     key <LatU>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Delete  ]   };
     key <LatM>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   BackSpace   ]   };
     key <AC10>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Return  ]   };
+    key <AC11>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Return  ]   };
 
     // Mapping of function F keys to numeric row
     key <TLDE> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, Escape ] };
