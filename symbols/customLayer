@@ -59,8 +59,8 @@ xkb_symbols "Fn" {
     key <AE09> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, ninesubscript ] };
     key <AE10> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, zerosubscript ] };
 
-    // Extend G as a shortcut to change layout group
-    key <LatG> {
+    // Extend T as a shortcut to toggle layout group
+    key <LatT> {
         type[Group1]="FOUR_LEVEL+LEVEL5",
         symbols[Group1] = [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   ISO_Next_Group  ],
         symbols[Group2] = [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   ISO_Prev_Group  ]
