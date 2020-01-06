@@ -63,6 +63,9 @@ xkb_symbols "Fn" {
 
     key <TAB> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, F8 ] };
 
+    // XF86Eject (CD-eject)
+    key <I169> { [  Delete,     NoSymbol,   NoSymbol,   NoSymbol,  NoSymbol     ]   };
+
     // Extend T as a shortcut to toggle layout group
     key <LatT> {
         type[Group1]="FOUR_LEVEL+LEVEL5",
