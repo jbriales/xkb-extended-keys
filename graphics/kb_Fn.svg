@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="477.41608"
-     inkscape:cy="228.62937"
+     inkscape:cx="324.74928"
+     inkscape:cy="228.1622"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1522,5 +1522,16 @@
          x="236.37772"
          y="709.45795">~</tspan>
     </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.0410881px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.50102723"
+       x="430.69498"
+       y="713.27917"
+       id="text1096"><tspan
+         sodipodi:role="line"
+         id="tspan1094"
+         x="430.69498"
+         y="713.27917"
+         style="stroke-width:0.50102723">\</tspan></text>
   </g>
 </svg>
