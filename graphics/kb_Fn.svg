@@ -20,8 +20,8 @@
      inkscape:window-maximized="0"
      inkscape:window-y="42"
      inkscape:window-x="0"
-     inkscape:window-height="1036"
-     inkscape:window-width="1916"
+     inkscape:window-height="1396"
+     inkscape:window-width="2556"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -29,9 +29,9 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="225.73357"
-     inkscape:cx="385.72678"
-     inkscape:zoom="1.4"
+     inkscape:cy="223.22511"
+     inkscape:cx="370.80461"
+     inkscape:zoom="2.8"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -897,16 +897,6 @@
     <text
        style="line-height:0%"
        y="632.05487"
-       x="-37.18552"
-       id="text4691"><tspan
-         id="tspan4693"
-         sodipodi:role="line"
-         y="632.05487"
-         x="-37.18552 -32.443398 -28.490187 -24.536974 -20.583763 -16.240431"
-         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">Escape</tspan></text>
-    <text
-       style="line-height:0%"
-       y="632.05487"
        x="10.024955"
        id="text4699"><tspan
          id="tspan4701"
@@ -1024,16 +1014,6 @@
          y="632.05487"
          x="436.05334 440.39667 444.34988"
          style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">F12</tspan></text>
-    <text
-       style="line-height:0%"
-       y="670.96448"
-       x="343.63297"
-       id="text4819"><tspan
-         y="670.96448"
-         x="343.63297"
-         id="tspan4821"
-         sodipodi:role="line"
-         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">$</tspan></text>
     <g
        transform="translate(195.35715,0.71428429)"
        id="g3355">
@@ -1437,45 +1417,44 @@
          sodipodi:role="line"
          id="tspan4869-6-9">Delete</tspan></text>
     <text
-       style="line-height:0%"
-       y="709.45795"
-       x="236.37772"
-       id="text4819-3"><tspan
-         y="709.45795"
-         x="236.37772"
-         id="tspan4821-6"
-         sodipodi:role="line"
-         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">~</tspan></text>
-    <text
-       id="text1096"
-       y="713.27917"
-       x="430.69498"
-       style="font-style:normal;font-weight:normal;font-size:20.0411px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.501027"
-       xml:space="preserve"><tspan
-         style="stroke-width:0.501027"
-         y="713.27917"
-         x="430.69498"
-         id="tspan1094"
-         sodipodi:role="line">\</tspan></text>
-    <text
        id="text4691-3"
-       x="21.209496"
+       x="27.209496"
        y="671.38147"
        style="line-height:0%"><tspan
-         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         x="21.209496 25.951614 29.904823 33.85804 37.811253 42.154583"
          y="671.38147"
+         x="27.209496"
+         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
          sodipodi:role="line"
-         id="tspan4693-6">Escape</tspan></text>
+         id="tspan4693-6">Esc</tspan></text>
     <text
        style="line-height:0%"
-       y="708.43732"
-       x="70.148407"
+       y="710.10455"
+       x="74.792633"
+       id="text4691-3-3"><tspan
+         id="tspan4693-6-6"
+         sodipodi:role="line"
+         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="74.792633"
+         y="710.10455">Esc</tspan></text>
+    <text
+       style="line-height:0%"
+       y="632.10974"
+       x="-33.441631"
        id="text4691-3-7"><tspan
          id="tspan4693-6-5"
          sodipodi:role="line"
-         y="708.43732"
-         x="70.148407 74.890526 78.843735 82.796951 86.75016 91.093491"
-         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">Escape</tspan></text>
+         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="-33.441631"
+         y="632.10974">Esc</tspan></text>
+    <text
+       style="line-height:0%"
+       y="709.37335"
+       x="424.71176"
+       id="text4691-3-35"><tspan
+         id="tspan4693-6-62"
+         sodipodi:role="line"
+         style="font-variant:normal;font-weight:bold;font-size:8.66932px;line-height:1.25;font-family:Helvetica-Narrow;-inkscape-font-specification:Helvetica-Narrow-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="424.71176"
+         y="709.37335">Esc</tspan></text>
   </g>
 </svg>
