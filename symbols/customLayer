@@ -31,8 +31,8 @@ xkb_symbols "Fn" {
     key <LatL>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Right   ]   };
     key <LatU>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Delete  ]   };
     key <LatM>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   BackSpace   ]   };
-    key <LatH>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   asciitilde  ]   };
-    key <LatO>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   dollar  ]   };
+    //key <LatH>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   asciitilde  ]   };
+    //key <LatO>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   dollar  ]   };
     key <AC10>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Return  ]   };
     key <AC11>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Escape  ]   };
 
