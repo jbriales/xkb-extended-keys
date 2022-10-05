@@ -38,28 +38,18 @@ xkb_symbols "Fn" {
 
     // Mapping of function F keys to numeric row
     key <TLDE> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, Escape ] };
-    //key <AE01> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F1 ] };
-    //key <AE02> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F2 ] };
-    //key <AE03> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F3 ] };
-    //key <AE04> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F4 ] };
-    //key <AE05> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F5 ] };
-    //key <AE06> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F6 ] };
-    //key <AE07> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F7 ] };
-    //key <AE08> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F8 ] };
-    //key <AE09> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F9 ] };
-    //key <AE10> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F10 ] };
-    //key <AE11> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F11 ] };
-    //key <AE12> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F12 ] };
-    key <AE01> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, onesubscript ] };
-    key <AE02> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, twosubscript ] };
-    key <AE03> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, threesubscript ] };
-    key <AE04> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, foursubscript ] };
-    key <AE05> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, fivesubscript ] };
-    key <AE06> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, sixsubscript ] };
-    key <AE07> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, sevensubscript ] };
-    key <AE08> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, eightsubscript ] };
-    key <AE09> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, ninesubscript ] };
-    key <AE10> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, zerosubscript ] };
+    key <AE01> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F1 ] };
+    key <AE02> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F2 ] };
+    key <AE03> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F3 ] };
+    key <AE04> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F4 ] };
+    key <AE05> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F5 ] };
+    key <AE06> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F6 ] };
+    key <AE07> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F7 ] };
+    key <AE08> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F8 ] };
+    key <AE09> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F9 ] };
+    key <AE10> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F10 ] };
+    key <AE11> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F11 ] };
+    key <AE12> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F12 ] };
 
     key <TAB> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, F8 ] };
 
