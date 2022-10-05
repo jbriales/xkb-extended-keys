@@ -21,7 +21,7 @@ xkb_symbols "Fn" {
     key <LatW>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Insert  ]   };
     key <LatE>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Home    ]   };
     key <LatR>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Prior   ]   };
-    key <LatS>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Escape  ]   };
+    key <LatS>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   F4  ]   };
     key <LatD>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   End     ]   };
     key <LatF>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Next    ]   };
     // Mapping of right hand alphanumeric keys for mapped functions
