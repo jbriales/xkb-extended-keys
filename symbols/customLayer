@@ -16,6 +16,32 @@ xkb_symbols "Fn" {
     // key.type is set to assign a specific default type to all mappings below
     // Note: NoSymbol is used in lower levels to preserve previous symbols
 
+    // A layer customization for having numeric row and symbols there close to home row
+    // TODO: Move this to its own symbols file?
+    key <LatA>  { [  NoSymbol,  NoSymbol,   exclam,   NoSymbol  ]   };
+    key <LatS>  { [  NoSymbol,  NoSymbol,   at,   NoSymbol  ]   };
+    key <LatD>  { [  NoSymbol,  NoSymbol,   numbersign,   NoSymbol  ]   };
+    key <LatF>  { [  NoSymbol,  NoSymbol,   dollar,   NoSymbol  ]   };
+    key <LatG>  { [  NoSymbol,  NoSymbol,   percent,   NoSymbol  ]   };
+    key <LatH>  { [  NoSymbol,  NoSymbol,   asciicircum,   NoSymbol  ]   };
+    key <LatJ>  { [  NoSymbol,  NoSymbol,   ampersand,   NoSymbol  ]   };
+    key <LatK>  { [  NoSymbol,  NoSymbol,   asterisk,   NoSymbol  ]   };
+    key <LatL>  { [  NoSymbol,  NoSymbol,   parenleft,   NoSymbol  ]   };
+    key <AC10>  { [  NoSymbol,  NoSymbol,   parenright,   NoSymbol  ]   };
+    key <AC11>  { [  NoSymbol,  NoSymbol,   underscore,   NoSymbol  ]   };
+    key <RTRN>  { [  NoSymbol,  NoSymbol,   plus,   NoSymbol  ]   };
+
+    key <LatQ>  { [  NoSymbol,  NoSymbol,   1,   NoSymbol  ]   };
+    key <LatW>  { [  NoSymbol,  NoSymbol,   2,   NoSymbol  ]   };
+    key <LatE>  { [  NoSymbol,  NoSymbol,   3,   NoSymbol  ]   };
+    key <LatR>  { [  NoSymbol,  NoSymbol,   4,   NoSymbol  ]   };
+    key <LatT>  { [  NoSymbol,  NoSymbol,   5,   NoSymbol  ]   };
+    key <LatY>  { [  NoSymbol,  NoSymbol,   6,   NoSymbol  ]   };
+    key <LatU>  { [  NoSymbol,  NoSymbol,   7,   NoSymbol  ]   };
+    key <LatI>  { [  NoSymbol,  NoSymbol,   8,   NoSymbol  ]   };
+    key <LatO>  { [  NoSymbol,  NoSymbol,   9,   NoSymbol  ]   };
+    key <LatP>  { [  NoSymbol,  NoSymbol,   0,   NoSymbol  ]   };
+
     // Mapping of left hand alphanumeric keys for mapped functions
     key <LatQ>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Escape  ]   };
     key <LatW>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Insert  ]   };
