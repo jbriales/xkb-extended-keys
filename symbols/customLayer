@@ -43,26 +43,6 @@ xkb_symbols "Fn" {
     key <LatO>  { [  NoSymbol,  NoSymbol,   9,   NoSymbol  ]   };
     key <LatP>  { [  NoSymbol,  NoSymbol,   0,   NoSymbol  ]   };
 
-    // Mapping of left hand alphanumeric keys for mapped functions
-    key <LatQ>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Escape  ]   };
-    key <LatW>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Insert  ]   };
-    key <LatE>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Home    ]   };
-    key <LatR>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Prior   ]   };
-    key <LatS>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   F4  ]   };
-    key <LatD>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   End     ]   };
-    key <LatF>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Next    ]   };
-    // Mapping of right hand alphanumeric keys for mapped functions
-    key <LatI>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Up      ]   };
-    key <LatJ>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Left    ]   };
-    key <LatK>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Down    ]   };
-    key <LatL>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Right   ]   };
-    key <LatU>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Delete  ]   };
-    key <LatM>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   BackSpace   ]   };
-    //key <LatH>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   asciitilde  ]   };
-    //key <LatO>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   dollar  ]   };
-    key <AC10>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Return  ]   };
-    key <AC11>  { [  NoSymbol,  NoSymbol,   NoSymbol,   NoSymbol,   Escape  ]   };
-
     // Mapping of function F keys to numeric row
     key <TLDE> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, Escape ] };
     key <AE01> { [  NoSymbol, NoSymbol,   NoSymbol,   NoSymbol, F1 ] };
