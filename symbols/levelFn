@@ -2,12 +2,12 @@
 // the Caps_Lock key chooses the fifth level functions in alphanumeric keys.
 default  partial modifier_keys
 xkb_symbols "caps_switch" {
-  key <CAPS> {
-    // Extend levels of <CAPS> key to allocate three different behaviors
-    type[Group1]="THREE_LEVEL",
-    symbols[Group1] = [ ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift ]
-  };
+  // key <CAPS> {
+  //   // Extend levels of <CAPS> key to allocate three different behaviors
+  //   type[Group1]="THREE_LEVEL",
+  //   symbols[Group1] = [ ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift ]
+  // };
   // Ensure a mapping to a real modifier for LevelFive.
   // Mod3 is chosen since it seems not to conflict with other modifiers
-  modifier_map Mod3 { <CAPS> };
+  // modifier_map Mod3 { <CAPS> };
 };
