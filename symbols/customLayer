@@ -32,16 +32,18 @@ xkb_symbols "Fn" {
     key <RTRN>  { [  NoSymbol,  NoSymbol,   plus,         NoSymbol   ]   };
 
     key <TAB>   { [  NoSymbol,  NoSymbol,   grave,   NoSymbol  ]   };
-    key <LatQ>  { [  NoSymbol,  NoSymbol,   1,   NoSymbol  ]   };
-    key <LatW>  { [  NoSymbol,  NoSymbol,   2,   NoSymbol  ]   };
-    key <LatE>  { [  NoSymbol,  NoSymbol,   3,   NoSymbol  ]   };
-    key <LatR>  { [  NoSymbol,  NoSymbol,   4,   NoSymbol  ]   };
-    key <LatT>  { [  NoSymbol,  NoSymbol,   5,   NoSymbol  ]   };
-    key <LatY>  { [  NoSymbol,  NoSymbol,   6,   NoSymbol  ]   };
-    key <LatU>  { [  NoSymbol,  NoSymbol,   7,   NoSymbol  ]   };
-    key <LatI>  { [  NoSymbol,  NoSymbol,   8,   NoSymbol  ]   };
-    key <LatO>  { [  NoSymbol,  NoSymbol,   9,   NoSymbol  ]   };
-    key <LatP>  { [  NoSymbol,  NoSymbol,   0,   NoSymbol  ]   };
+    key <LatQ>  { [  NoSymbol,  NoSymbol,   1,       NoSymbol  ]   };
+    key <LatW>  { [  NoSymbol,  NoSymbol,   2,       NoSymbol  ]   };
+    key <LatE>  { [  NoSymbol,  NoSymbol,   3,       NoSymbol  ]   };
+    key <LatR>  { [  NoSymbol,  NoSymbol,   4,       NoSymbol  ]   };
+    key <LatT>  { [  NoSymbol,  NoSymbol,   5,       NoSymbol  ]   };
+    key <LatY>  { [  NoSymbol,  NoSymbol,   6,       NoSymbol  ]   };
+    key <LatU>  { [  NoSymbol,  NoSymbol,   7,       NoSymbol  ]   };
+    key <LatI>  { [  NoSymbol,  NoSymbol,   8,       NoSymbol  ]   };
+    key <LatO>  { [  NoSymbol,  NoSymbol,   9,       NoSymbol  ]   };
+    key <LatP>  { [  NoSymbol,  NoSymbol,   0,       NoSymbol  ]   };
+    key <AD11>  { [  NoSymbol,  NoSymbol,   minus,   NoSymbol  ]   };
+    key <AD12>  { [  NoSymbol,  NoSymbol,   equal,   NoSymbol  ]   };
 
     key <TAB> { [  NoSymbol,   NoSymbol,   NoSymbol,   NoSymbol, F8 ] };
 
