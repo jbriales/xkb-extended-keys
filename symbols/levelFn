@@ -7,7 +7,8 @@ xkb_symbols "caps_switch" {
   //   type[Group1]="THREE_LEVEL",
   //   symbols[Group1] = [ ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift ]
   // };
+
   // Ensure a mapping to a real modifier for LevelFive.
   // Mod3 is chosen since it seems not to conflict with other modifiers
-  // modifier_map Mod3 { <CAPS> };
+  modifier_map Mod3 { <HNGL> };
 };
