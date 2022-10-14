@@ -17,7 +17,7 @@ xkb_symbols "Fn" {
     // Note: NoSymbol is used in lower levels to preserve previous symbols
 
     // A layer customization for having numeric row and symbols there close to home row
-    key <CAPS>  { [  Return,    NoSymbol,   asciitilde,   NoSymbol   ]   };
+    key <CAPS>  { [  Return,    NoSymbol,   grave,        NoSymbol   ]   };
     key <LatA>  { [  NoSymbol,  NoSymbol,   exclam,       NoSymbol   ]   };
     key <LatS>  { [  NoSymbol,  NoSymbol,   at,           NoSymbol   ]   };
     key <LatD>  { [  NoSymbol,  NoSymbol,   numbersign,   NoSymbol   ]   };
@@ -31,7 +31,7 @@ xkb_symbols "Fn" {
     key <AC11>  { [  NoSymbol,  NoSymbol,   underscore,   NoSymbol   ]   };
     key <RTRN>  { [  NoSymbol,  NoSymbol,   plus,         NoSymbol   ]   };
 
-    key <TAB>   { [  NoSymbol,  NoSymbol,   grave,   NoSymbol  ]   };
+    key <TAB>   { [  NoSymbol,  NoSymbol,   asciitilde,   NoSymbol  ]   };
     key <LatQ>  { [  NoSymbol,  NoSymbol,   1,       NoSymbol  ]   };
     key <LatW>  { [  NoSymbol,  NoSymbol,   2,       NoSymbol  ]   };
     key <LatE>  { [  NoSymbol,  NoSymbol,   3,       NoSymbol  ]   };
